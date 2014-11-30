@@ -20,7 +20,9 @@ public class RecipientListRouter {
 			// This list is split and printed to the stdout as separate lines.
 			// The list is also sent to an aggregator and the resulting list is
 			// is sent to the logging channel.
-			gateway.process(Arrays.asList("bye", "hello", "boo"));
+			
+			// Truth conquers all...
+			gateway.process(Arrays.asList("Veritas", "omnia", "vincit"));
 		} catch (final Exception e) {
 			// handle exceptions properly here
 			e.printStackTrace();
